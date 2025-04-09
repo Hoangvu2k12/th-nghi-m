@@ -6,11 +6,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Vũ roblox"
          },
         Key = {
-        KeySystem = true,
+        KeySystem = false,
         Title = "Key System",
         Description = "",
-        KeyLink = "",
-        Keys = {"2012 , 2025"},
+        KeyLink = "https://link-target.net/1335896/key-minh-gaming1",
+        Keys = {"viettuoilon"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -38,12 +38,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      
 -------TOGGLE 
 
-     Toggle = AddToggle(Tab1o, {
-      Name = "a",
-      Default = false,
-      Callback = function()
-     end
-    })
+   --  Toggle = AddToggle(Tab1o, {
+   --   Name = "a",
+   --   Default = false,
+   --   Callback = function()
+   --  end
+   -- })
     
 ------- BUTTON
     
