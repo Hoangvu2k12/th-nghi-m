@@ -6,11 +6,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Vũ roblox"
          },
         Key = {
-        KeySystem = false,
+        KeySystem = true,
         Title = "Key System",
         Description = "",
-        KeyLink = "https://link-target.net/1335896/key-minh-gaming1",
-        Keys = {"viettuoilon"},
+        KeyLink = "",
+        Keys = {"đặc biệt"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
