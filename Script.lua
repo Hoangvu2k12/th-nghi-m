@@ -46,21 +46,31 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
    -- })
     
 ------- BUTTON
-    
+  
     AddButton(Tab1o, {
-     Name = "Skull Hub(có key)",
+     Name = "Tbao hub (nokey)",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet('https://skullhub.xyz/loader.lua'))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
+        
+    AddButton(Tab1o, {
+     Name = "Null Fire (nokey)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
   end
   })
   
   AddButton(Tab1o, {
-     Name = "dead Rails farm cả hai",
+     Name = "dead Rails farm cả hai (nokey)",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -72,7 +82,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/
   })
   
   AddButton(Tab1o, {
-     Name = "dead Rails farm bonds(có key)",
+     Name = "dead Rails farm bonds (có key)",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -149,7 +159,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Doors/m
   })
   
     AddButton(Tab4o, {
-     Name = "Blue Lock Rivals",
+     Name = "Blue Lock Rivals (nokey)",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
