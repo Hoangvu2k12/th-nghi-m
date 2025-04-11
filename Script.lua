@@ -10,7 +10,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "Key System",
         Description = "",
         KeyLink = "",
-        Keys = {"đặc biệt"},
+        Keys = {"05032012"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -169,6 +169,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Doors/m
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EnesXVC/Games-Scripts/main/Blue-Lock-Fearise-Hub"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "BlueLock Control ball v2",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/ControlRecreate"))()
   end
   })
   
