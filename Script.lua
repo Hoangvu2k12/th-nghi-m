@@ -47,8 +47,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     
 ------- BUTTON
   
-    AddButton(Tab1o, {
-     Name = "Tbao hub (nokey)",
+ AddButton(Tab1o, {
+     Name = "TbaoHub (nokey)",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -56,9 +56,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
+  end
+  })
         
-    AddButton(Tab1o, {
-     Name = "Null Fire (nokey)",
+ AddButton(Tab1o, {
+     Name = "Null-Fire (nokey)",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
