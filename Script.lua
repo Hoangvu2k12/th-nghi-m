@@ -168,7 +168,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Doors/m
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EnesXVC/Games-Scripts/main/Blue-Lock-Fearise-Hub"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zayn31214/name/refs/heads/main/SterlingNew"))()    
   end
   })
   
