@@ -160,18 +160,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Doors/m
   end
   })
   
-    AddButton(Tab4o, {
-     Name = "Blue Lock Rivals (nokey)",
-    Callback = function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Zayn31214/name/refs/heads/main/SterlingNew"))()    
-  end
-  })
-  
   AddButton(Tab4o, {
      Name = "BlueLock Control ball v2",
     Callback = function()
