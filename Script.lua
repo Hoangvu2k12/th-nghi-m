@@ -72,7 +72,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-
   })
   
   AddButton(Tab1o, {
-     Name = "dead Rails farm cả hai (nokey)",
+     Name = "farm cả hai (nokey)",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -84,7 +84,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/
   })
   
   AddButton(Tab1o, {
-     Name = "dead Rails farm bonds (có key)",
+     Name = "farm bonds (có key)",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -92,6 +92,54 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XUANVNPRO/Xuan01/refs/heads/main/README.md"))()
+  end
+  })
+  
+    AddButton(Tab1o, {
+     Name = "Fort Constitution (đi chuyển nhanh ko TP)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/Tpfort.github.io/refs/heads/main/Tpfort.lua"))()
+  end
+  })
+  
+    AddButton(Tab1o, {
+     Name = "Castle (TP)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
+  end
+  })
+  
+    AddButton(Tab1o, {
+     Name = "Sterling (di chuyển nhanh ko TP vẫn bị lỗi một tí)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/sterlingnotifcation.github.io/refs/heads/main/Sterling.lua'))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Tesla Lab (di chuyển nhanh ko TP)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua'))()
   end
   })
   
@@ -160,6 +208,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Doors/m
   end
   })
   
+
   AddButton(Tab4o, {
      Name = "BlueLock Control ball v2",
     Callback = function()
