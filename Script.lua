@@ -143,6 +143,18 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.git
   end
   })
   
+  AddButton(Tab1o, {
+     Name = "fram bond 2 (có key)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/autobond"))()    
+  end
+  })
+  
   AddButton(Tab2o, {
      Name = "redz hub",
     Callback = function()
